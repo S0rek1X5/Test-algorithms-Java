@@ -32,23 +32,23 @@ public class Calculator{
         System.out.print("Digite los numeros que desea dividir: ");valor_1=escaner.nextInt();
         System.out.print("/ ");valor_2=escaner.nextInt();
         divi=valor_1 / valor_2;
-        System.out.println("El resultado de su resta es: " + divi);
+        System.out.println("El resultado de su division es: " + divi);
     }
-
     public static void main (String[] args){
         Scanner escaner = new Scanner(System.in);
+        Calculator Calculator1; Calculator1= new Calculator();
         int opc;
-        System.out.println("Bienvenido");
+        System.out.println("\tBienvenido");
         System.out.print("Que operacion desea realizar? "); opc=escaner.nextInt();
         System.out.println("Digite 0 para ejecutar el calculador");
         if (opc==1){
-            CalSuma();
+            Calculator1.CalSuma();
         }else if(opc==2){
-            CalResta();
+            Calculator1.CalResta();
         }else if(opc==3){
-            CalMultiplicacion();
+            Calculator1.CalMultiplicacion();
         }else if(opc==4){
-            CalDivision();
+            Calculator1.CalDivision();
         }else{
             System.out.println("Usted no ha elegido una opcion valida");
         }
