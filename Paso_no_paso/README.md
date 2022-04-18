@@ -1,0 +1,1 @@
+Algoritmo totalmente inutil, pero puede servir a veces
