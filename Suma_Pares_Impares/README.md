@@ -1,0 +1,1 @@
+Algoritmo para realizar sumas de numeros pares e impares.
