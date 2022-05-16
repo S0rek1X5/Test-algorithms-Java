@@ -1,18 +1,7 @@
-## Getting Started
+Programa que presenta el siguiente menu de opciones.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1-La opción 1 debe permitir buscar un caracter en una cadena y calcularcuántas veces se encuentra dicho carácter en la cadena. Los datos de entrada como la cadena y el caractera buscar, debenser ingresadospor el usuario.CADENAS, ARREGLOS Y REGISTROS1-Búsqueda de un caracter en una cadena de caracteres
+2-Ordenamiento de un arreglo unidimensional3-Manejo deregistros4-Salir del programa
+Utilice funciones de cadena que le permitan realizar la búsqueda.Mostrar la salida.2-En la opción 2 debe aplicar uno de los algoritmos de ordenamiento dado en clase.Se debe cargar de datos enteros un arreglo unidimensional declarado para 6 elementos, y luego realizar el proceso de ordenarlo. Como salida, debe mostrar el arreglo antes y después de ordenarlo.
+3-En la opción 3 se debe declarar un registro de estudiante ESTU con tres campos: Nombre, Materia, Notas (siendo Notas un arreglo de tres elementos).Se deben cargar un arreglo de registro tipo ESTUpara 4 estudiantes, y se debe calcular el promedio de notasde cada estudiante e imprimir el nombre del estudiante y supromedio como salida.
+4-El programa debe estar controlado de tal manera que permita salir del mismo mediante la opción 4 del menú
