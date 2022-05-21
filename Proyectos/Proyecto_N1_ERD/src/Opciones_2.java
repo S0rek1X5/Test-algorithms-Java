@@ -47,13 +47,13 @@ public class Opciones_2 {
                 System.out.print(" "+num[i]);
             }
         }
-        System.out.println("\n\tDigite\n1-Volver a ejecutar\n2-Volver al menu principal\n3-Salir del programa:");
+        System.out.println("\n\n\tDigite\n1-Volver a ejecutar\n2-Volver al menu principal\n3-Salir del programa:");
         opt=sc.nextInt();
         switch(opt){
             case 1:
                 Dos();
             case 2:
-                break;
+                Main.main();
             case 3:
                 System.exit(3);
         }
