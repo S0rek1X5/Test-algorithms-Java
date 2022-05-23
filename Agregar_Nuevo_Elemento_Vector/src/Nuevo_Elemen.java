@@ -28,6 +28,7 @@ public class Nuevo_Elemen {
     }
     public void imprimir (int n, int Vec[]){
         int i;
+        System.out.println("\nSu vector queda como:");
         for(i=0;i<=n;i++){
             System.out.println("  Vec["+i+"] = "+Vec[i]);
         }
