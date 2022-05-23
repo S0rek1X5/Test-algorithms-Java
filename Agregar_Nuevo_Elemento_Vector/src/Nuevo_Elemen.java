@@ -12,7 +12,10 @@ public class Nuevo_Elemen {
         }
         System.out.print("\nIngrese el nuevo elemento: ");nE=sc.nextInt();
         System.out.print("\nIngrese la posicion: ");po=sc.nextInt();
-
+        while(po<0 || po>n-1){
+            System.out.print("\n\tERROR\nPosicion incorrecta");
+            System.out.print("\nIngrese la posicion: ");po=sc.nextInt();
+        }
         procesar(n,Vec,nE,po);
     }
     public void procesar(int n,int Vec[],int nE,int po){
