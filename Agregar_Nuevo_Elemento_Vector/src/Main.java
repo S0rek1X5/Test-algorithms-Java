@@ -6,7 +6,7 @@ public class Main {
         Nuevo_Elemen Main= new Nuevo_Elemen();
         Scanner sc = new Scanner(System.in);
         do{
-
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
             Main.leer();
 
 
